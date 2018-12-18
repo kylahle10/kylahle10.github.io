@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>Honors</title>
+		<link href="../Styles/styles.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+<!--
+
+.style1 {font-family: Verdana, Arial, Helvetica, sans-serif}
+-->
+A:link    {color: #000000;text-decoration: none}
+A:visited {color: #000000;text-decoration: none}
+A:active  {color: #000000;text-decoration: none}
+A:hover   {color: #ffffff;text-decoration: none}
+.style2 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
+
+		</style>
+	</head>
+	
+<body>
+	<div class="header" width="100%"> 
+		<p class="headFont">Schedule an appointment today for professional makeup services expertly curated for a wide variety of events</p>
+</div>	
+	
+<div class="topnav">
+  		<a href="http://jaidaiman.me/">Home</a>
+  		<a href="http://jaidaiman.me/Services">Services</a>
+ 		<a href="http://jaidaiman.me/Portfolio">Portfolio</a>
+ 		<a href="http://jaidaiman.me/Book">Book Today</a>
+ 		<a class="active" href="http://jaidaiman.me/Honors">Honors</a>
+	</div>
+	
+<img class="bannerMargin" src="../Images/Jaida Banner.jpg" alt=""/>
+<br><br><br><br>
+<form method="POST" action="submit.php">
+	<table width="400" border="0" align="center" bgcolor="#FCB535">
+    <tr>
+    <td colspan="2" align="center"><h2>Client Information Request Form</h2></td>
+    </tr>
+    <table width="400" height="343" border="1" align="center" bgcolor="#FCB535">
+        <tr>
+          <td valign="top"><p align="left" class="formText">Name: </p></td>
+          <td><span class="formText"><input name="Name" type="text" id="name" style="width:97%"></span></td>
+        </tr>
+        <tr>
+          <td valign="top"><p align="left" class="formText">Address (Line 1): </p></td>
+          <td><span class="formText"><input name="a1" type="text" id="a1" style="width:97%"></span></td>
+        </tr>
+        <tr>
+          <td valign="top"><p align="left" class="formText">Address (Line 2): </p></td>
+          <td><span class="formText"><input name="a2" type="text" id="a2" style="width:97%"></span></td>
+        </tr>
+        <tr>
+          <td valign="top"><p align="left" class="formText">City: </p></td>
+          <td><span class="formText"><input name="city" type="text" id="city" style="width:97%"></span></td>
+        </tr>
+        <tr>
+          <td valign="top"><p align="left" class="formText">State: </p></td>
+          <td><select id="state" name="state">
+          <option value="AL">Alabama</option>
+          <option value="AK">Alaska</option>
+          <option value="AZ">Arizona</option>
+          <option value="AR">Arkansas</option>
+          <option value="CA">California</option>
+          <option value="CO">Colorado</option>
+          <option value="CT">Connecticut</option>
+          <option value="DE">Delaware</option>
+          <option value="DC">District Of Columbia</option>
+          <option value="FL">Florida</option>
+          <option value="GA">Georgia</option>
+          <option value="HI">Hawaii</option>
+          <option value="ID">Idaho</option>
+          <option value="IL">Illinois</option>
+          <option value="IN">Indiana</option>
+          <option value="IA">Iowa</option>
+          <option value="KS">Kansas</option>
+          <option value="KY">Kentucky</option>
+          <option value="LA">Louisiana</option>
+          <option value="ME">Maine</option>
+          <option value="MD">Maryland</option>
+          <option value="MA">Massachusetts</option>
+          <option value="MI">Michigan</option>
+          <option value="MN">Minnesota</option>
+          <option value="MS">Mississippi</option>
+          <option value="MO">Missouri</option>
+          <option value="MT">Montana</option>
+          <option value="NE">Nebraska</option>
+          <option value="NV">Nevada</option>
+          <option value="NH">New Hampshire</option>
+          <option value="NJ">New Jersey</option>
+          <option value="NM">New Mexico</option>
+          <option value="NY">New York</option>
+          <option value="NC">North Carolina</option>
+          <option value="ND">North Dakota</option>
+          <option value="OH">Ohio</option>
+          <option value="OK">Oklahoma</option>
+          <option value="OR">Oregon</option>
+          <option value="PA">Pennsylvania</option>
+          <option value="RI">Rhode Island</option>
+          <option value="SC">South Carolina</option>
+          <option value="SD">South Dakota</option>
+          <option value="TN">Tennessee</option>
+          <option value="TX">Texas</option>
+          <option value="UT">Utah</option>
+          <option value="VT">Vermont</option>
+          <option value="VA">Virginia</option>
+          <option value="WA">Washington</option>
+          <option value="WV">West Virginia</option>
+          <option value="WI">Wisconsin</option>
+          <option value="WY">Wyoming</option></select>				
+        </td>
+        </tr>
+        <tr>
+          <td valign="top"><p align="left" class="formText">Zip Code: </p></td>
+          <td><span class="formText"><input name="zip" type="text" id="zip" style="width:97%"></span></td>
+        </tr>
+
+        <tr>
+          <td height="60" valign="top"><span class="formText">
+            <label></label>
+          </span><span class="formText">What makeup service would you like more information about?</span></td>
+          <td valign="top"><span class="formText">
+            <label>
+            <select id="service" name="service">
+              <option value="glam">Full Glam</option>
+              <option value="natural">Natural Glam</option>
+              <option value="lash">Lash Application</option></select>
+            </label>
+          </span></td>
+        </tr>
+        <tr>
+          <td valign="top"><p class="formText">Additional Questions: </p>
+            <p class="formText">&nbsp;</p></td>
+          <td valign="top"><textarea name="questions" cols="30" rows="7"></textarea></td>
+        </tr>
+        
+      </table>
+      <br><br>
+      <div align="center">
+        <label>
+        <input type="submit" name="Submit" value="Submit" />
+        </label>
+        <input type="reset" name="Submit2" value="Reset" />
+      </div>
+      <br><br>
+</form>
+<br><br>
+
+
+
+<img src="../Images/1.png" width="100%" height="" alt=""/>
+<br><br><br>
+<img src="../Images/J.I..png" width="100%" height="" alt=""/>	
+</body>
+	
+<footer class="mainFooter">
+	<br>Jaida Iman | beautybyj.iman@gmail.com
+	<br>&copy; 2018 | Kai Le | All rights reserved &copy;
+	<br><br>
+	<div>
+	<a href="https://www.instagram.com/mua.iman/"><img src="../Images/iww.png" width="40" height="40" alt=""/></a>
+		</div>
+</footer>
+</html>
